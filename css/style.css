@@ -1,0 +1,27 @@
+:root {
+    --jumbo-background: #1ABC9C;
+    --header-background: #2C3E50;
+    --titletext: #333333;
+    --footertop-background: #3A546D;
+
+
+}
+
+
+header{
+    background-color: var(--header-background);
+    height: 50px;
+   
+}
+
+.ms_logo{
+    background-color:chartreuse;
+    height: 50px;
+    width: 650px;
+}
+
+.ms_nav{
+    background-color: aqua;
+    height: 50px;
+    width: 650px;
+}
