@@ -17,17 +17,53 @@ header{
 .ms_logo{
     background-color:chartreuse;
     height: 50px;
-    width: 100%;
+    width: 50%;
 }
 
 .ms_nav{
     background-color: aqua;
     height: 50px;
-    width: 100%;
+    width: 50%;
 }
 
-.ms_nav{
+.ms_jumbo{
     background-color: rgb(74, 133, 6);
     height: 500px;
     width: 100%;
+}
+
+.ms_card{
+    height: 200px;
+    width: 200px;
+    background-color: rebeccapurple;
+}
+
+.ms_text{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(51, 61, 153);
+}
+
+.ms_jumbo_button{
+    background-color: rgb(74, 133, 6);
+    height: 300px;
+    width: 100%;
+}
+
+.ms_contact{
+    background-color: red;
+    height: 500px;
+    width: 100%;
+}
+
+.ms_footer_top{
+    height: 200px;
+    width: 100%;
+    background-color: var(--footertop-background);
+}
+
+.ms_footer_bottom{
+    height: 100px;
+    width: 100%;
+    background-color: var(--header-background);
 }
