@@ -7,62 +7,63 @@
 
 }
 
-
-.bg_header{
-    background-color: var(--header-background);
+.ms_line_black{
+    background-color: black;
 }
 
-.line_b{
-    display: block;
-    width: 100px;
-    height: 3px;
+.ms_line_white{
     background-color: white;
 }
 
-
-.ms_logo{
-    background-color:chartreuse;
-    height: 50px;
-    width: 50%;
+.linea{
+    display: inline-block;
+    height: 3px;
+    width: 100px;
+    border-radius: 3px;
+    vertical-align: middle;
 }
 
-.ms_nav{
-    background-color: aqua;
-    height: 50px;
-    width: 50%;
+.bg_header {
+    background-color: var(--header-background);
 }
 
-.ms_jumbo{
+
+.ms_line::before {
+    border-bottom: 3px solid white;
+    width: 50px;
+    height: 50px;
+}
+
+.ms_line::after {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: lightgrey;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.bg_azure {
     background-color: var(--jumbo-background);
 
-    
 }
 
+.contact {
 
-
-.ms_text{
-    height: 100px;
-    width: 100%;
-    background-color: rgb(51, 61, 153);
-}
-
-.ms_jumbo_button{
-    background-color: rgb(74, 133, 6);
-    
-    
-}
-
-.contact{
-    
     height: 500px;
-    
+
 }
 
-.footer_top{
-    
+.footer_top {
+
     background-color: var(--footertop-background);
 }
 
-.footer_bottom{
+.footer_bottom {
     background-color: var(--header-background);
 }
