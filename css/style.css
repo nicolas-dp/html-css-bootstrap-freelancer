@@ -3,8 +3,6 @@
     --header-background: #2C3E50;
     --titletext: #333333;
     --footertop-background: #3A546D;
-
-
 }
 
 .ms_line_black{
@@ -15,6 +13,29 @@
     background-color: white;
 }
 
+.bg_header {
+    background-color: var(--header-background);
+}
+
+.bg_azure {
+    background-color: var(--jumbo-background);
+
+}
+
+.text_azure{
+    color: var(--jumbo-background);
+}
+
+.footer_top {
+    background-color: var(--footertop-background);
+}
+
+.footer_bottom {
+    background-color: var(--header-background);
+}
+
+
+
 .linea{
     display: inline-block;
     height: 3px;
@@ -23,9 +44,7 @@
     vertical-align: middle;
 }
 
-.bg_header {
-    background-color: var(--header-background);
-}
+
 
 
 .ms_line::before {
@@ -46,24 +65,17 @@
     font-weight: bold;
 }
 
-
-
-.bg_azure {
-    background-color: var(--jumbo-background);
-
+.circle{
+    border: 1px solid white;    
 }
+
+.p_5{
+    padding: 5px;
+}
+
+
 
 .contact {
-
     height: 500px;
-
 }
 
-.footer_top {
-
-    background-color: var(--footertop-background);
-}
-
-.footer_bottom {
-    background-color: var(--header-background);
-}
