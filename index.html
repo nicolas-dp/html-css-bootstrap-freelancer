@@ -11,25 +11,50 @@
             integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
             crossorigin="anonymous">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+            integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
         <title>Freelancer</title>
+
 
     </head>
     <body>
-
-        <header>
+        <!-- Header -->
+        <header id="site_header" class="bg_header">
             <div class="container">
-                <div class="row">
-                    <!-- LOGO -->
-                    <div class="ms_logo col-6">
+                <nav class="navbar navbar-expand-lg navbar-light bg_header">
+                    <div class="container-fluid">
+                        <button class="position-absolute top-1 end-0
+                            navbar-toggler btn btn-outline-light" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarTogglerDemo03"
+                            aria-controls="navbarTogglerDemo03"
+                            aria-expanded="false" aria-label="Toggle
+                            navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand text-white text-uppercase"
+                            href="#">Start Bootstrap</a>
+                        <div class="position-absolute top-0 end-0 collapse
+                            navbar-collapse pt-2" id="navbarTogglerDemo03">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0
+                                flex-row-reverse">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white"
+                                        aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Link</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white">Disabled</a>
+                                </li>
+                            </ul>
 
+                        </div>
                     </div>
-                    <!-- NAV BAR -->
-                    <div class="ms_nav col-6">
-
-                    </div>
-                </div>
-
-
+                </nav>
             </div>
 
 
@@ -37,118 +62,191 @@
 
 
         </header>
+
         <!-- JUMBO -->
-        <div class="container">
-            <div class="row">
-                <div class="ms_jumbo col-12">
-                    <div class="row">
-                        <div class="col">
-                            <p class="text-center">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit. Laboriosam, illo nemo. Qui, ducimus at ipsam
-                                quae neque esse ex corporis rem error, quos natus!
-                                Quia quae consequatur perferendis error tenetur?
-                            </p>
+        <section class="jumbo ms_jumbo">
+
+            <div class="container text-white">
+                <div class="row row-cols-1">
+                    <div class="col text-center">
+                        <img class="w-25 img-fluid mx-auto d-block"
+                            src="./img/avatar.svg" alt="">
+                    </div>
+                    <div class="col text-center">
+                        <h2 class="text-center text-uppercase">Start
+                            Bootstrap</h2>
+
+                    </div>
+                    <div class="row row-cols-auto justify-content-center align-items-center">
+                        <div class="col-3 text-center">
+                            <span class="line_b"></span>
+
                         </div>
-                    </div>
-                </div>
-            </div>
+                        <div class="col-3 text-center">
+                            <i class="fa-solid fa-star w-25"></i>
 
-        </div>
+                        </div>
 
-        <div class="container">
-            <div class="row">
-                <div class="ms_text col">
+                        <div class="col-3 text-center">
+                            <span class="line_b"></span>
 
-                </div>
-            </div>
+                        </div>
 
-            <div class="row  gap-3 justify-content-center">
-                <div class="col-2 m-0 p-0">
-                    <div class="ms_card">
 
 
                     </div>
-                </div>
 
-
-                <div class="col-2 m-0 p-0">
-                    <div class="ms_card">
-
-
+                    <div class="col text-center">
+                        <p class="text-uppercase">Grafic artist-web
+                            designer-illustrator</p>
                     </div>
-                </div>
-
-                <div class="col-2 m-0 p-0">
-                    <div class="ms_card">
 
 
-                    </div>
+
                 </div>
 
             </div>
-
-            <div class="row mt-1 gap-3 justify-content-center">
-                <div class="col-2 m-0 p-0">
-                    <div class="ms_card">
+        </section>
 
 
-                    </div>
-                </div>
 
-
-                <div class="col-2 m-0 p-0">
-                    <div class="ms_card">
-
-
-                    </div>
-                </div>
-
-                <div class="col-2 m-0 p-0">
-                    <div class="ms_card">
-
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="ms_jumbo_button col-12">
-
-                </div>
-            </div>
-
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="ms_contact col-12">
-
-                </div>
-            </div>
-
-        </div>
-
-        <footer>
+        <!-- Portfolio -->
+        <section class="portfolio pb-5">
+            <h2 class="text-center text-uppercase p-1">Portfolio</h2>
             <div class="container">
-                <div class="row">
-                    <div class="ms_footer_top col-12">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <div class="col">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Fuga cupiditate perspiciatis magni, ipsa delectus quas
+                        doloribus illum animi officiis doloremque esse minima
+                        explicabo, aspernatur pariatur nemo vel eaque impedit
+                        quam.
+                    </div>
 
+                    <div class="col">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Fuga cupiditate perspiciatis magni, ipsa delectus quas
+                        doloribus illum animi officiis doloremque esse minima
+                        explicabo, aspernatur pariatur nemo vel eaque impedit
+                        quam.
+                    </div>
+
+                    <div class="col">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Fuga cupiditate perspiciatis magni, ipsa delectus quas
+                        doloribus illum animi officiis doloremque esse minima
+                        explicabo, aspernatur pariatur nemo vel eaque impedit
+                        quam.
+                    </div>
+
+                    <div class="col">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Fuga cupiditate perspiciatis magni, ipsa delectus quas
+                        doloribus illum animi officiis doloremque esse minima
+                        explicabo, aspernatur pariatur nemo vel eaque impedit
+                        quam.
+                    </div>
+
+                    <div class="col">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Fuga cupiditate perspiciatis magni, ipsa delectus quas
+                        doloribus illum animi officiis doloremque esse minima
+                        explicabo, aspernatur pariatur nemo vel eaque impedit
+                        quam.
+                    </div>
+
+                    <div class="col">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Fuga cupiditate perspiciatis magni, ipsa delectus quas
+                        doloribus illum animi officiis doloremque esse minima
+                        explicabo, aspernatur pariatur nemo vel eaque impedit
+                        quam.
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+        <!-- About -->
+        <section class="about ms_jumbo_button text-white">
+            <h2 class="text-center text-uppercase p-5">About</h2>
+            <div class="container p-5">
+                <div class="row gy-4 row-cols-1 row-cols-md-2
+                    justify-content-center">
+                    <div class="col">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Asperiores, harum laudantium voluptate ipsam modi
+                        eos debitis esse saepe inventore accusamus? Dolorem
+                        laboriosam sed iusto laudantium nulla reiciendis quis
+                        unde pariatur.
+                    </div>
+
+                    <div class="col">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Asperiores, harum laudantium voluptate ipsam modi
+                        eos debitis esse saepe inventore accusamus? Dolorem
+                        laboriosam sed iusto laudantium nulla reiciendis quis
+                        unde pariatur.
                     </div>
                 </div>
 
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="ms_footer_bottom col-12">
+
+
+        </section>
+        <!-- Contatti -->
+        <section class="contact">
+            <h2 class="text-center text-uppercase p-5">Contattami</h2>
+        </section>
+
+
+        <footer id="site_footer" class="text-white">
+            <div class="footer_top px-3">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Cum, temporibus incidunt impedit alias ipsum odio
+                            repellat at laboriosam, consectetur veritatis
+                            dolorum
+                            eius officia dolorem quae nihil dicta soluta
+                            tenetur!
+                            Doloribus.
+                        </div>
+
+                        <div class="col">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Cum, temporibus incidunt impedit alias ipsum odio
+                            repellat at laboriosam, consectetur veritatis
+                            dolorum
+                            eius officia dolorem quae nihil dicta soluta
+                            tenetur!
+                            Doloribus.
+                        </div>
+
+                        <div class="col">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Cum, temporibus incidunt impedit alias ipsum odio
+                            repellat at laboriosam, consectetur veritatis
+                            dolorum
+                            eius officia dolorem quae nihil dicta soluta
+                            tenetur!
+                            Doloribus.
+                        </div>
 
                     </div>
-                </div>
 
+                </div>
             </div>
+            <div class="footer_bottom text-center">
+                Lorem.
+            </div>
+
+
         </footer>
 
     </body>
